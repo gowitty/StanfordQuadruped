@@ -9,7 +9,8 @@ cd UDPComms
 sudo bash UDPComms/install.sh
 
 cd ..
-git clone https://github.com/stanfordroboticsclub/PupperCommand.git
+#git clone https://github.com/stanfordroboticsclub/PupperCommand.git
+git clone https://github.com/gowitty/PupperCommand.git
 cd PupperCommand
 sudo bash install.sh
 
