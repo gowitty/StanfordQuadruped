@@ -28,6 +28,10 @@ class JoystickInterface:
     def get_command(self, state, do_print=False):
         try:
             msg = self.udp_handle.get()
+            #Gotwitty
+            print("JoystickInterface.get_command msg = self.udp_handle.get()")
+            print(msg)
+            
             command = Command()
             
             ####### Handle discrete commands ########
