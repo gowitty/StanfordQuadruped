@@ -71,5 +71,12 @@ cd StanfordQuadruped
 sudo bash install.sh
 ```
 
+```shell
+#StanfordQuadruped/src/JoystickInterface.py",
+
+udp_publisher_ip
+```
+
+
 
 
