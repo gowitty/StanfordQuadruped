@@ -39,21 +39,25 @@ You can find the bill of materials, pre-made kit purchasing options, assembly in
 - We also have a Google group set up here: https://groups.google.com/forum/#!forum/stanford-quadrupeds
 
 
-## Gowitty note
+# Gowitty note
+```shell
 $ sudo apt install python-pip
 
 $ sudo apt install python3-pip
 
 pip3 install setuptools
 
+```
 
-##Piwheels
+## Piwheels
+```shell
 $ sudo nano /etc/pip.conf
 
 [global]
 index-url = https://pypi.doubanio.com/simple
 [install]
 trusted-host = pypi.doubanio.com
+```
 
 
 
