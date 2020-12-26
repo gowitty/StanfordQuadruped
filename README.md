@@ -53,6 +53,11 @@ $ sudo apt install git
 ```shell
 $ sudo nano /etc/pip.conf
 
+extra-index-url = https://pypi.doubanio.com/simple
+Looking in indexes: https://pypi.org/simple, https://pypi.doubanio.com/simple
+
+should use index-url instead of extra-index-url
+
 [global]
 index-url = https://pypi.doubanio.com/simple
 [install]
