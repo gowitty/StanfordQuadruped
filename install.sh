@@ -3,11 +3,6 @@ yes | pip3 install numpy transforms3d pigpio pyserial
 yes | pip install numpy transforms3d pigpio pyserial
 yes | sudo pip install numpy transforms3d pigpio pyserial
 
-cd..
-git clone https://github.com/stanfordroboticsclub/UDPComms.git
-cd UDPComms
-sudo bash UDPComms/install.sh
-
 cd ..
 #git clone https://github.com/stanfordroboticsclub/PupperCommand.git
 git clone https://github.com/gowitty/PupperCommand.git
