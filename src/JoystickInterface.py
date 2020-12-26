@@ -9,7 +9,7 @@ from src.Utilities import deadband, clipped_first_order_filter
 class JoystickInterface:
     def __init__(
         #self, config, udp_port=8830, udp_publisher_port = 8840,
-        self, config, udp_port=5500, udp_publisher_port = 5500, udp_publisher_ip = "127.0.0.1"
+        self, config, udp_port=8830, udp_publisher_port = 8840, udp_publisher_ip = "127.0.0.1"
     ):
         self.config = config
         self.previous_gait_toggle = 0
