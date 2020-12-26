@@ -18,9 +18,11 @@ class JoystickInterface:
         self.previous_activate_toggle = 0
 
         self.message_rate = 50
-        self.udp_handle = UDPComms.Subscriber(udp_port, timeout=0.3)
+        #self.udp_handle = UDPComms.Subscriber(udp_port, timeout=0.3)
         #self.udp_publisher = UDPComms.Publisher(udp_publisher_port)
         self.udp_publisher = UDPComms.Publisher(udp_publisher_port, udp_publisher_ip)
+        #move UDPComms.Subscriber to be after UDPComms.Publisher
+        self.udp_handle = UDPComms.Subscriber(udp_port, timeout=0.3)
 
 
     def get_command(self, state, do_print=False):
