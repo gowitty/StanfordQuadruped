@@ -60,9 +60,11 @@ trusted-host = pypi.doubanio.com
 ```
 
 
-
-
-
+```shell
+git clone https://github.com/gowitty/StanfordQuadruped.git
+cd StanfordQuadruped
+sudo bash install.sh
+```
 
 
 
