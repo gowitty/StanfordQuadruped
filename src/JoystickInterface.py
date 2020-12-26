@@ -8,7 +8,8 @@ from src.Utilities import deadband, clipped_first_order_filter
 
 class JoystickInterface:
     def __init__(
-        self, config, udp_port=8830, udp_publisher_port = 8840,
+        #self, config, udp_port=8830, udp_publisher_port = 8840,
+        self, config, udp_port=5500, udp_publisher_port = 5500, udp_publisher_ip = "127.0.0.1"
     ):
         self.config = config
         self.previous_gait_toggle = 0
@@ -18,7 +19,8 @@ class JoystickInterface:
 
         self.message_rate = 50
         self.udp_handle = UDPComms.Subscriber(udp_port, timeout=0.3)
-        self.udp_publisher = UDPComms.Publisher(udp_publisher_port)
+        #self.udp_publisher = UDPComms.Publisher(udp_publisher_port)
+        self.udp_publisher = UDPComms.Publisher(udp_publisher_port, udp_publisher_ip)
 
 
     def get_command(self, state, do_print=False):
