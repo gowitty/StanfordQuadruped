@@ -45,7 +45,7 @@ $ sudo apt install python-pip
 
 $ sudo apt install python3-pip
 
-pip3 install setuptools
+$ sudo apt install git
 
 ```
 
