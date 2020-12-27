@@ -46,7 +46,7 @@ sudo bash install.sh
 ```shell
 #StanfordQuadruped/src/JoystickInterface.py",
 
-udp_publisher_ip
+udp_publisher_ip : publish onto the ip
 ```
 
 
