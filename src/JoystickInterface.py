@@ -85,5 +85,8 @@ class JoystickInterface:
 
 
     def set_color(self, color):
-        joystick_msg = {"ps4_color": color}
-        self.udp_publisher.send(joystick_msg)
+        try:
+            joystick_msg = {"ps4_color": color}
+            self.udp_publisher.send(joystick_msg)
+        except UDPComms.timeout:
+            pass
