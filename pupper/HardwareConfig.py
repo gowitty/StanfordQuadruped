@@ -10,4 +10,4 @@ NEUTRAL_ANGLE_DEGREES = np.array(
 )
 
 PS4_COLOR = {"red": 0, "blue": 0, "green": 255}
-PS4_DEACTIVATED_COLOR = {"red": 0, "blue": 255, "green": 50}
+PS4_DEACTIVATED_COLOR = {"red": 0, "blue": 0, "green": 50}
