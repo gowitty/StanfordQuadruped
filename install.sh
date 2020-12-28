@@ -20,7 +20,8 @@ cd PS4Joystick
 sudo bash install.sh
 
 cd ..
-sudo systemctl enable joystick
+#sudo systemctl enable joystick
+#already in PupperCommand install.sh
 
 wget https://github.com/joan2937/pigpio/archive/v78.zip
 unzip v78.zip
