@@ -47,6 +47,16 @@ sudo bash install.sh
 #StanfordQuadruped/src/JoystickInterface.py",
 
 udp_publisher_ip : publish onto the ip
+
+##
+publisher.send() error at second call, if no Subscriber in advance.
+## option 1:
+        self.udp_publisher = UDPComms.Publisher(udp_publisher_port, udp_publisher_ip)
+        #add to solve robot issue
+        self.ps4_handle = UDPComms.Subscriber(udp_publisher_port, timeout=0.3
+        
+## option 2:
+  severice restart =
 ```
 
 
